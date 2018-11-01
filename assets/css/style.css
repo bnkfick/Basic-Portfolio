@@ -1,18 +1,18 @@
-* {
-    box-sizing: border-box;
-  }
+
   
   body {
     background-image: url("../../assets/images/bananas.png");
     background-repeat: repeat;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
     margin: 0;
 }
 
 .header-wrapper
 {
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     background-color: #fff;
     border-bottom: 3px solid #cccccc;
@@ -42,14 +42,14 @@ a {
     font-size: 16px;
 }
 .content-wrapper {
-    width: 960px;
+    width: 880px;
     margin: auto;
     margin-bottom: 50px;
     margin-top: 50px;
     background-color: #fff;
     padding: 10px 40px 10px 40px;
     text-align: left;
-    border: 2px solid #dddddd;
+    border: 1px solid #dddddd;
 }
 
 h1 {
@@ -57,15 +57,17 @@ h1 {
     color: #4aaaa5;
 }
 
-img {
+#bio {
     float: left;
     padding: 5px;
     margin: 0 25px 20px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 .footer-wrapper
 {
-    margin: auto;
+    margin:0 auto;
     width: 100%;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
@@ -73,15 +75,16 @@ img {
 
 .footer-yellow
 {
-    margin: auto;
+    margin:0 auto;
     width: 100%;
     border-top: 2px solid yellow;
 }
 
 footer {
-    margin: auto;
+    margin: 0 auto;
     width: 960px;
     color: #fff;
+    font-size: 14px;
     line-height: 50px;
     text-align: center;
 }
@@ -127,4 +130,25 @@ button {
     background-color: #4aaaa5;
     color: #fff;
     padding: 25px 25px 25px 25px;
+}
+
+.item {
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+.itemlabel {
+    position: absolute;
+    bottom: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.itemlabel a {
+    color: white;
 }
